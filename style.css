@@ -1,0 +1,102 @@
+body{
+     height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(black,yellow);
+}
+header{
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+header h2{
+    font-size: medium;
+       
+}
+nav {
+    margin-top: 24px;
+  margin-left: 330px;
+
+}
+
+
+.signup{
+   
+    border: 1px solid white ;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 3px;
+    margin-top: 0px;
+    align-self: center;
+}
+.signin{
+    margin-left: 400px
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.try1{
+    margin-top: 50px;
+}
+.try2{
+    display: inline;
+    margin-top: 20px;
+}
+.try1 button{
+    height: 60px;
+    width: 100px;
+    background-color: blue;
+    margin-left: 100px;
+    font-size: large;
+}
+.try2 button{
+      height: 60px;
+    width: 120px;
+    background-color: rgb(223, 223, 228);
+    margin-left: 10px;
+    font-size: large;
+    
+    
+}
+
+ 
+
+
+
+.Hero {
+  display: flex;  
+     align-items: center;
+    justify-content: space-between; 
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 200px;
+  
+}
+
+.herotext{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+      flex: 1; 
+}
+
+.hero-image {
+  margin-right: 100px;
+  
+}
